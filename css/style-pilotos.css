@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    /* height: 100%; */
+    width: 100vw;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+#cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: #005bb5;
+}
+#menu-navegacao {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.menu-lista {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-lista li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+section {
+    align-self: center;
+}
+h1 {
+    font-size: 35px;
+    color: #081420;
+    margin: 30px 0 30px 10px;
+}
+
+#hero {
+    width: 100vw;
+    height: 150px;
+    color: #ffffff;
+    background-image: url("../images/mapa-mundi.png");
+    background-color: #081420;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 50px 30px;
+    line-height: 1.3;
+}
+#hero h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+#hero p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.slide-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.slide-list {
+    display: flex;
+}
+.slide-item {
+    flex-shrink: 0;
+    width: 70vw;
+    margin: 0 10px;
+    cursor: grab;
+}
+.slide-content {
+    border: 1px solid #ebebeb;
+    box-shadow: 2px 1px 1px rgba(4, 1, 5, 0.7);
+    position: relative;
+    border-radius: 10px;
+}
+.slide-image {
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+    image-rendering: optimizeSpeed;
+}
+.slide-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top rgb(0, 91, 181,0.5), transparent);
+    color: #081420;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+}
+.slide-description h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.slide-description h3 {
+    color: #005bb5;
+}
+.slide-controls {
+   margin: 20px auto;
+}
+.slide-control-button {
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.slide-control-button.active {
+    color: #005bb5;
+}
