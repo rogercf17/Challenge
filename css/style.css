@@ -104,6 +104,9 @@ h2 {
     color: #EF7644;
     text-shadow: 1px 0px #000000, 0 1px #585858;
 }
+a {
+    text-decoration: none;
+}
 
 .icon {
     width: 50px;
