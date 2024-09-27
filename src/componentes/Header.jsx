@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Header() {
     return(
         <>
@@ -10,10 +12,18 @@ export default function Header() {
                 <h1>Formula E</h1>
                 <nav>
                     <ul className="flex gap-5">
-                        <li>Pilotos e Equipes</li>
-                        <li>Estatísticas</li>
-                        <li>Informações</li>
-                        <li>Interativos</li>
+                        <li>
+                            <NavLink to='/pilotosequipes'>Pilotos e Equipes</NavLink>
+                        </li>
+                        <li>
+                            <NanLink to='/estatisticas'>Estatísticas</NanLink>
+                        </li>
+                        <li>
+                            <NanLink to='/informacoes'>Informações</NanLink>
+                        </li>
+                        <li>
+                            <NanLink to='/interativos'>Interativos</NanLink>
+                        </li>
                     </ul>
                 </nav>
                 <div>
