@@ -6,7 +6,7 @@ export default function ClassificacaoPilotos() {
 
     const table1 = (
         <table className="
-            w-11/12
+            w-11/12 md:w-10/12 lg:w-8/12
             table-fixed
             border-spacing-2
             text-center
@@ -15,7 +15,7 @@ export default function ClassificacaoPilotos() {
             mx-auto
         ">
             <thead className="border-2 border-slate-500">
-                <tr className="text-3xl">
+                <tr className="text-2xl md:text-3xl">
                     <th>Posição</th>
                     <th>Piloto</th>
                     <th>Equipe</th>
@@ -196,7 +196,7 @@ export default function ClassificacaoPilotos() {
     )
     const table2 = (
         <table className='
-            w-11/12
+            w-11/12 md:w-10/12 lg:w-8/12
             table-fixed
             border-spacing-2
             text-center
@@ -205,7 +205,7 @@ export default function ClassificacaoPilotos() {
             mx-auto
         '>
             <thead className="border-2 border-slate-500">
-                <tr className="text-3xl">
+                <tr className="text-2xl md:text-3xl">
                     <th>Posição</th>
                     <th>Equipe</th>
                     <th>Pontos</th>
@@ -233,7 +233,7 @@ export default function ClassificacaoPilotos() {
                     <td>269</td>
                 </tr>
                 <tr className="h-14">
-                    <td>5</td>
+                    <td className="font-bold">5</td>
                     <td>DS Penske</td>
                     <td>263</td>
                 </tr>
@@ -267,6 +267,7 @@ export default function ClassificacaoPilotos() {
                     <td>ERT Formula E Team</td>
                     <td>56</td>
                 </tr>
+                
             </tbody>
         </table>
     )
