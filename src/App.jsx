@@ -1,5 +1,6 @@
 import Header from "./componentes/Header";
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
+import Footer from "./componentes/Footer";
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <>
       <Header />
       <Outlet />
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "nome": "DS Penske",
+      "paisDeOrigem": "França/EUA",
+      "vitorias": 15,
+      "corridas": 109,
+      "podios": 47
+    },
+    {
+      "id": 2,
+      "nome": "Jaguar TCS Racing",
+      "paisDeOrigem": "Reino Unido",
+      "vitorias": 12,
+      "corridas": 109,
+      "podios": 34
+    },
+    {
+      "id": 3,
+      "nome": "Envision Racing",
+      "paisDeOrigem": "Reino Unido",
+      "vitorias": 11,
+      "corridas": 109,
+      "podios": 35
+    },
+    {
+      "id": 4,
+      "nome": "TAG Heuer Porsche Formula E Team",
+      "paisDeOrigem": "Alemanha",
+      "vitorias": 7,
+      "corridas": 66,
+      "podios": 18
+    },
+    {
+      "id": 5,
+      "nome": "Nissan Formula E Team",
+      "paisDeOrigem": "Japão",
+      "vitorias": 6,
+      "corridas": 109,
+      "podios": 18
+    },
+    {
+      "id": 6,
+      "nome": "Andretti Formula E",
+      "paisDeOrigem": "Estados Unidos",
+      "vitorias": 9,
+      "corridas": 109,
+      "podios": 24
+    },
+    {
+      "id": 7,
+      "nome": "Mahindra Racing",
+      "paisDeOrigem": "Índia",
+      "vitorias": 5,
+      "corridas": 109,
+      "podios": 23
+    },
+    {
+      "id": 8,
+      "nome": "NEOM McLaren Formula E Team",
+      "paisDeOrigem": "Reino Unido",
+      "vitorias": 2,
+      "corridas": 22,
+      "podios": 5
+    },
+    {
+      "id": 9,
+      "nome": "Maserati MSG Racing",
+      "paisDeOrigem": "Itália/Mônaco",
+      "vitorias": 1,
+      "corridas": 109,
+      "podios": 14
+    },
+    {
+      "id": 10,
+      "nome": "ABT CUPRA Formula E Team",
+      "paisDeOrigem": "Alemanha",
+      "vitorias": 2,
+      "corridas": 85,
+      "podios": 14
+    },
+    {
+      "id": 11,
+      "nome": "ERT Formula E Team",
+      "paisDeOrigem": "Índia",
+      "vitorias": 0,
+      "corridas": 22,
+      "podios": 0
+    }
+]

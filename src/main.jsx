@@ -6,7 +6,6 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import Estatisticas from './pages/Estatisticas.jsx'
 import Informacoes from './pages/Informacoes.jsx'
-import Interativos from './pages/Interativos.jsx'
 import PilotosEquipes from './pages/PilotosEquipes.jsx'
 import Login from './pages/Login.jsx'
 import Registro from './pages/Registro.jsx'
@@ -20,7 +19,6 @@ const router = createBrowserRouter([
       {index: true, element: <Home/>},
       {path: '/estatisticas', element: <Estatisticas/>},
       {path: '/informacoes', element: <Informacoes/>},
-      {path: '/interativos', element: <Interativos/>},
       {path: '/pilotosequipes', element: <PilotosEquipes/>},
       {path: '/login', element: <Login/>},
       {path: '/registro', element: <Registro/>},

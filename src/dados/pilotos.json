@@ -1,0 +1,226 @@
+[
+    {
+      "id": 1,
+      "nome": "Jake Dennis",
+      "idade": 28,
+      "nacionalidade": "Britânico",
+      "time": "Andretti Formula E",
+      "numero": 27
+    },
+    {
+      "id": 2,
+      "nome": "Pascal Wehrlein",
+      "idade": 29,
+      "nacionalidade": "Alemão",
+      "time": "TAG Heuer Porsche Formula E Team",
+      "numero": 94
+    },
+    {
+      "id": 3,
+      "nome": "Nick Cassidy",
+      "idade": 29,
+      "nacionalidade": "Neozelandês",
+      "time": "Jaguar TCS Racing",
+      "numero": 37
+    },
+    {
+      "id": 4,
+      "nome": "Mitch Evans",
+      "idade": 29,
+      "nacionalidade": "Neozelandês",
+      "time": "Jaguar TCS Racing",
+      "numero": 9
+    },
+    {
+      "id": 5,
+      "nome": "Jean-Éric Vergne",
+      "idade": 33,
+      "nacionalidade": "Francês",
+      "time": "DS Penske",
+      "numero": 25
+    },
+    {
+      "id": 6,
+      "nome": "António Félix da Costa",
+      "idade": 32,
+      "nacionalidade": "Português",
+      "time": "TAG Heuer Porsche Formula E Team",
+      "numero": 13
+    },
+    {
+      "id": 7,
+      "nome": "Sam Bird",
+      "idade": 37,
+      "nacionalidade": "Britânico",
+      "time": "NEOM McLaren Formula E Team",
+      "numero": 10
+    },
+    {
+      "id": 8,
+      "nome": "Stoffel Vandoorne",
+      "idade": 31,
+      "nacionalidade": "Belga",
+      "time": "DS Penske",
+      "numero": 1
+    },
+    {
+      "id": 9,
+      "nome": "Sébastien Buemi",
+      "idade": 35,
+      "nacionalidade": "Suíço",
+      "time": "Envision Racing",
+      "numero": 16
+    },
+    {
+      "id": 10,
+      "nome": "Robin Frijns",
+      "idade": 32,
+      "nacionalidade": "Holandês",
+      "time": "Envision Racing",
+      "numero": 4
+    },
+    {
+      "id": 11,
+      "nome": "Lucas di Grassi",
+      "idade": 39,
+      "nacionalidade": "Brasileiro",
+      "time": "ABT CUPRA Formula E Team",
+      "numero": 11
+    },
+    {
+      "id": 12,
+      "nome": "Oliver Rowland",
+      "idade": 31,
+      "nacionalidade": "Britânico",
+      "time": "Nissan Formula E Team",
+      "numero": 22
+    },
+    {
+      "id": 13,
+      "nome": "Maximilian Günther",
+      "idade": 26,
+      "nacionalidade": "Alemão",
+      "time": "Maserati MSG Racing",
+      "numero": 7
+    },
+    {
+      "id": 14,
+      "nome": "Edoardo Mortara",
+      "idade": 37,
+      "nacionalidade": "Suíço-Italiano",
+      "time": "Mahindra Racing",
+      "numero": 48
+    },
+    {
+      "id": 15,
+      "nome": "Dan Ticktum",
+      "idade": 24,
+      "nacionalidade": "Britânico",
+      "time": "ERT Formula E Team",
+      "numero": 33
+    },
+    {
+      "id": 16,
+      "nome": "Jake Hughes",
+      "idade": 29,
+      "nacionalidade": "Britânico",
+      "time": "NEOM McLaren Formula E Team",
+      "numero": 5
+    },
+    {
+      "id": 17,
+      "nome": "André Lotterer",
+      "idade": 42,
+      "nacionalidade": "Alemão",
+      "time": "Andretti Formula E",
+      "numero": 36
+    },
+    {
+      "id": 18,
+      "nome": "Norman Nato",
+      "idade": 31,
+      "nacionalidade": "Francês",
+      "time": "Nissan Formula E Team",
+      "numero": 17
+    },
+    {
+      "id": 19,
+      "nome": "Sacha Fenestraz",
+      "idade": 24,
+      "nacionalidade": "Franco-Argentino",
+      "time": "Nissan Formula E Team",
+      "numero": 23
+    },
+    {
+      "id": 20,
+      "nome": "Nico Müller",
+      "idade": 31,
+      "nacionalidade": "Suíço",
+      "time": "ABT CUPRA Formula E Team",
+      "numero": 51
+    },
+    {
+      "id": 21,
+      "nome": "Sérgio Sette Câmara",
+      "idade": 25,
+      "nacionalidade": "Brasileiro",
+      "time": "ERT Formula E Team",
+      "numero": 6
+    },
+    {
+      "id": 22,
+      "nome": "Jehan Daruvala",
+      "idade": 25,
+      "nacionalidade": "Indiano",
+      "time": "Maserati MSG Racing",
+      "numero": 8
+    },
+    {
+      "id": 23,
+      "nome": "Nyck de Vries",
+      "idade": 29,
+      "nacionalidade": "Holandês",
+      "time": "Mahindra Racing",
+      "numero": 3
+    },
+    {
+      "id": 24,
+      "nome": "Kelvin van der Linde",
+      "idade": 27,
+      "nacionalidade": "Sul-Africano",
+      "time": "ABT CUPRA Formula E Team",
+      "numero": 12
+    },
+    {
+      "id": 25,
+      "nome": "Roberto Merhi",
+      "idade": 32,
+      "nacionalidade": "Espanhol",
+      "time": "Mahindra Racing",
+      "numero": 29
+    },
+    {
+      "id": 26,
+      "nome": "David Beckmann",
+      "idade": 23,
+      "nacionalidade": "Alemão",
+      "time": "TAG Heuer Porsche Formula E Team",
+      "numero": 38
+    },
+    {
+      "id": 27,
+      "nome": "Gabriela Jílková",
+      "idade": 28,
+      "nacionalidade": "Tcheca",
+      "time": "Maserati MSG Racing",
+      "numero": 24
+    },
+    {
+      "id": 28,
+      "nome": "Zane Maloney",
+      "idade": 20,
+      "nacionalidade": "Barbadense",
+      "time": "Andretti Formula E",
+      "numero": 2
+    }
+  ]
