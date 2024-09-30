@@ -7,6 +7,7 @@ export default function Informacoes() {
         justify-center items-center	mx-auto
         flex-grow
         pb-14
+        gap-4
     "
     >
       <div
@@ -64,7 +65,7 @@ export default function Informacoes() {
             revisado.
           </li>
         </ul>
-        <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black">Descubra mais</button>
+        <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black hover:opacity-70">Descubra mais</button>
       </div>
       <div className="
         bg-cyan-800 
@@ -86,7 +87,7 @@ export default function Informacoes() {
           e as ações que tomamos, definindo os nossos valores e objetivos para
           garantir que o nosso evento seja o mais sustentável possível.
         </p>
-        <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black">Política Formula E</button>
+        <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black hover:opacity-70">Política Formula E</button>
       </div>
     </section>
   );

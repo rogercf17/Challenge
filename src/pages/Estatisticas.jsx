@@ -1,7 +1,11 @@
+import Classificacao from "../componentes/Classificacao";
+
 export default function Estatisticas() {
     return(
-        <>
-            <h1>Estatísticas</h1>
-        </>
+        <section className="
+            flex items-center justify-center
+        ">
+            <Classificacao />
+        </section>
     )
 }
