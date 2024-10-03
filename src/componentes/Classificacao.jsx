@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-// import { Button } from '@/components/ui/button';
+import Estatisticas1 from "../componentes/Estatisticas1"
 
 export default function ClassificacaoPilotos() {
-    const [activeTable, setActiveTable] = useState(null);
+    const [activeTable, setActiveTable] = useState('table1');
 
     const table1 = (
         <table className="
@@ -13,6 +13,7 @@ export default function ClassificacaoPilotos() {
             bg-slate-800 
             shadow-2xl 
             mx-auto
+            mb-5
         ">
             <thead className="border-2 border-slate-500">
                 <tr className="text-2xl md:text-3xl">
@@ -203,6 +204,7 @@ export default function ClassificacaoPilotos() {
             bg-slate-800 
             shadow-2xl 
             mx-auto
+            mb-5
         '>
             <thead className="border-2 border-slate-500">
                 <tr className="text-2xl md:text-3xl">
@@ -267,10 +269,14 @@ export default function ClassificacaoPilotos() {
                     <td>ERT Formula E Team</td>
                     <td>56</td>
                 </tr>
-                
             </tbody>
         </table>
     )
+
+    const table3 = (
+        <Estatisticas1 />
+    )
+
     return(
         <div className='flex flex-col justify-center items-center'>
             <div className="flex gap-5 my-4">
@@ -286,10 +292,17 @@ export default function ClassificacaoPilotos() {
                 >
                     Equipes
                 </button>
+                <button
+                    onClick={() => setActiveTable('table3')}
+                    className='h-14 w-28 bg-teal-500 rounded-full text-black hover:opacity-70'
+                >
+                    Principais
+                </button>
             </div>
             <div>
                 {activeTable === 'table1' && table1}
                 {activeTable === 'table2' && table2}
+                {activeTable === 'table3' && table3}
             </div>
         </div>
     )

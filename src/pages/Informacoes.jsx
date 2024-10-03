@@ -1,3 +1,5 @@
+import CardCorridas from "../componentes/CardCorridas"
+
 export default function Informacoes() {
   return (
     <section
@@ -12,9 +14,9 @@ export default function Informacoes() {
     >
       <div
         className="
-        bg-cyan-800 
         mt-2.5 p-3
         rounded-2xl
+        w-full
       "
       >
         <h1 className="font-bold antialiased text-4xl mb-1.5">História</h1>
@@ -68,9 +70,9 @@ export default function Informacoes() {
         <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black hover:opacity-70">Descubra mais</button>
       </div>
       <div className="
-        bg-cyan-800 
         mt-2.5 p-3
         rounded-2xl
+        w-full
       ">
         <h1 className="font-bold antialiased text-4xl mb-1.5">Sustentabilidade</h1>
         <p className="text-base text-justify leading-6">
@@ -88,6 +90,20 @@ export default function Informacoes() {
           garantir que o nosso evento seja o mais sustentável possível.
         </p>
         <button className="mt-5 bg-teal-500 w-40 h-10 rounded-full text-black hover:opacity-70">Política Formula E</button>
+      </div>
+      <div className="
+        mt-2.5 p-3
+        rounded-2xl
+        w-full
+        flex flex-col justify-around
+      ">
+        <h1 className="font-bold antialiased text-4xl mb-1.5">Calendário de corridas temp.24/25</h1>
+        <div className="flex gap-20 items-center">
+          <CardCorridas dia="07" mes="Dez" imagem="https://static-files.formula-e.pulselive.com/flags/br.svg" cidade="São Paulo" round="1" />
+          <CardCorridas dia="11" mes="Jan" imagem="https://static-files.formula-e.pulselive.com/flags/mx.svg" cidade="Cidade do México" round="2" />
+          <CardCorridas dia="14" mes="Jan" imagem="https://static-files.formula-e.pulselive.com/flags/sa.svg" cidade="Jeddah" round="3" />
+          <CardCorridas dia="15" mes="Fev" imagem="https://static-files.formula-e.pulselive.com/flags/sa.svg" cidade="Jeddah" round="4" />
+        </div>
       </div>
     </section>
   );
