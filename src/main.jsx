@@ -8,6 +8,7 @@ import Estatisticas from './pages/Estatisticas.jsx'
 import Informacoes from './pages/Informacoes.jsx'
 import PilotosEquipes from './pages/PilotosEquipes.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
+import DetalhesPiloto from './pages/DetalhesPiloto.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       {path: '/estatisticas', element: <Estatisticas/>},
       {path: '/informacoes', element: <Informacoes/>},
       {path: '/pilotosequipes', element: <PilotosEquipes/>},
+      {path: '/pilotosequipes/:id', element: <DetalhesPiloto/>},
       {path: '*', element: <PageNotFound/>}
     ]
   }
