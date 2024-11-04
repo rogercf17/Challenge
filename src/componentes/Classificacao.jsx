@@ -278,7 +278,7 @@ export default function ClassificacaoPilotos() {
     )
 
     return(
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center '>
             <div className="flex gap-5 my-4">
                 <button
                     onClick={() => setActiveTable('table1')}

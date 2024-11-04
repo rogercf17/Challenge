@@ -5,13 +5,13 @@ export default function Footer() {
         <>
             <footer className="
                 text-slate-300
-                flex
-                flex-col items-center justify-center
-                relative bottom-0  w-screen h-28
-                p-3
-                gap-3
-                z-0
+                flex flex-col items-center justify-center
+                w-full h-28
+                p-3 gap-3
                 border-t border-solid border-slate-700
+                mt-auto
+
+               
             ">
                 <h3 className="text-sm">Siga-nos nas redes sociais</h3>
                 <div className="

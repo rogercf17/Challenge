@@ -38,14 +38,20 @@ export default function Header() {
             </NavLink>
             <nav className="md:flex-grow">
                 <ul className="flex flex-col md:flex-row gap-5 justify-center">
-                    <li className="delay-500 transition-all hover:text-teal-500">
+                <li className="delay-50 transition-all hover:text-teal-500">
+                        <NavLink to='/'>Home</NavLink>
+                    </li>
+                    <li className="delay-50 transition-all hover:text-teal-500">
                         <NavLink to='/pilotosequipes'>Pilotos e Equipes</NavLink>
                     </li>
-                    <li className="delay-500 transition-all hover:text-teal-500">
+                    <li className="delay-50 transition-all hover:text-teal-500">
                         <NavLink to='/estatisticas'>Estatísticas</NavLink>
                     </li>
-                    <li className="delay-500 transition-all hover:text-teal-500">
+                    <li className="delay-50 transition-all hover:text-teal-500">
                         <NavLink to='/informacoes'>Informações</NavLink>
+                    </li>
+                    <li className="delay-50 transition-all hover:text-teal-500">
+                        <NavLink to='/puzzle'>Desafios</NavLink>
                     </li>
                 </ul>
             </nav>

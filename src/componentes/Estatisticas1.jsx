@@ -32,8 +32,8 @@ const dataVoltasMaisRapidas = [
 
 const PilotosComMaisVitorias = () => {
     return(
-        <div className="grid grid-cols-2 pr-3">
-            <ResponsiveContainer width={690} height={250}>
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-3 p-3" >
+            <ResponsiveContainer width={690} height={300}>
                 <h3 className='text-lg italic text-center text-pretty'>
                     Pilotos com mais vitórias na temporada
                 </h3>
@@ -51,7 +51,7 @@ const PilotosComMaisVitorias = () => {
                     <Bar dataKey="vitorias" fill="#8884d8" />
                 </BarChart>
             </ResponsiveContainer>
-            <ResponsiveContainer width={690} height={250}>
+            <ResponsiveContainer width={690} height={300} >
                 <h3 className='text-lg italic text-center text-pretty'>
                     Pilotos com mais pole positions na temporada
                 </h3>
@@ -69,7 +69,7 @@ const PilotosComMaisVitorias = () => {
                     <Bar dataKey="pole" fill="#8884d8" />
                 </BarChart>
             </ResponsiveContainer>
-            <ResponsiveContainer width={690} height={250}>
+            <ResponsiveContainer width={690} height={300}>
                 <h3 className='text-lg italic text-center text-pretty'>
                     Pilotos com mais pódios na temporada
                 </h3>
@@ -87,7 +87,7 @@ const PilotosComMaisVitorias = () => {
                     <Bar dataKey="podios" fill="#8884d8" />
                 </BarChart>
             </ResponsiveContainer>
-            <ResponsiveContainer width={690} height={250}>
+            <ResponsiveContainer width={690} height={300}>
                 <h3 className='text-lg italic text-center text-pretty'>
                     Voltas mais rápidas da temporada
                 </h3>
