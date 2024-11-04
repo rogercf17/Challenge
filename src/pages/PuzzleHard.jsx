@@ -20,11 +20,11 @@ const PuzzleHard = () => {
 
   const initializeGame = () => {
     // Initialize board
-    const initialBoard = Array(ROWS * COLUMNS).fill('../src/assets/images/puzzleHard/blank.jpg');
+    const initialBoard = Array(ROWS * COLUMNS).fill('/assets/images/puzzleHard/blank.jpg');
     setBoardTiles(initialBoard);
 
     // Initialize pieces
-    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `../src/assets/images/puzzleHard/${i + 1}.png`);
+    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `/assets/images/puzzleHard/${i + 1}.png`);
     initialPieces.reverse();
     
     // Shuffle pieces
