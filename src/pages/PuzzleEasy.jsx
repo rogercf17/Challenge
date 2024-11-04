@@ -20,11 +20,11 @@ const PuzzleEasy = () => {
 
   const initializeGame = () => {
     // Initialize board
-    const initialBoard = Array(ROWS * COLUMNS).fill('/assets/images/puzzleEasy/blank.jpg');
+    const initialBoard = Array(ROWS * COLUMNS).fill('./assets/images/puzzleEasy/blank.jpg');
     setBoardTiles(initialBoard);
 
     // Initialize pieces
-    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `/assets/images/puzzleEasy/${i + 1}.png`);
+    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `./assets/images/puzzleEasy/${i + 1}.png`);
     initialPieces.reverse();
     
     // Shuffle pieces
