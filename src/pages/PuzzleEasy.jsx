@@ -20,19 +20,19 @@ const PuzzleEasy = () => {
 
   const initializeGame = () => {
     // Initialize board
-    const initialBoard = Array(ROWS * COLUMNS).fill('./assets/images/puzzleEasy/blank.jpg');
+    const initialBoard = Array(ROWS * COLUMNS).fill('/assets/images/puzzleEasy/blank.jpg');
     setBoardTiles(initialBoard);
 
     // Initialize pieces
-    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `./assets/images/puzzleEasy/${i + 1}.png`);
+    let initialPieces = Array.from({ length: ROWS * COLUMNS }, (_, i) => `/assets/images/puzzleEasy/${i + 1}.png`);
     initialPieces.reverse();
-    
+
     // Shuffle pieces
     for (let i = 0; i < initialPieces.length; i++) {
       const j = Math.floor(Math.random() * initialPieces.length);
       [initialPieces[i], initialPieces[j]] = [initialPieces[j], initialPieces[i]];
     }
-    
+
     setPieces(initialPieces);
   };
 
@@ -71,7 +71,7 @@ const PuzzleEasy = () => {
   };
 
   return (
-    
+
     <div className="font-sans text-center">
       <br></br>
       <h2 className="text-2xl text-teal-fff font-bold">Quebra-Cabeça</h2>
@@ -98,7 +98,15 @@ const PuzzleEasy = () => {
           onDragEnd={handleDragEnd}
         />
       </div>
+
+      <div className="flex flex-col items-center">
+        <h3 className="mt-20">Imagem completa</h3>
+        <img src="/racerEasy.png" alt="puzzle completo" className="max-h-[400px] mb-10" />
+      </div>
+
     </div>
+
+
   );
 };
 

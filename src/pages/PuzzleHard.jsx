@@ -98,6 +98,11 @@ const PuzzleHard = () => {
           onDragEnd={handleDragEnd}
         />
       </div>
+
+      <div className="flex flex-col items-center">
+        <h3 className="mt-20">Imagem completa</h3>
+        <img src="/racersHard.jpeg" alt="puzzle completo" className="max-h-[400px] mb-10" />
+      </div>
     </div>
   );
 };
